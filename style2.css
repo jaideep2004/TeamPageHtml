@@ -1,0 +1,287 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.topbar {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.link {
+  padding: 20px;
+}
+.nav0 {
+  padding-top: 13px;
+  padding-left: 27px;
+}
+.nav1 {
+  padding-top: 35px;
+  padding-left: 19px;
+}
+.btn {
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: -10px;
+  background: linear-gradient(
+    360deg,
+    rgba(83, 0, 255, 1) 0%,
+    rgba(231, 172, 204, 1) 100%
+  );
+  border: none;
+  color: white;
+  
+}
+.btnid{
+    text-decoration: none;
+}
+
+.nav1:hover :not(.nav0) {
+  background: linear-gradient(97.13deg, #9cbaf7 2.78%, #9010b0 97.22%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  border-bottom: 3px solid rgb(88, 4, 166);
+  border-radius: 2px;
+  opacity: 1 !important;
+}
+#logoid {
+  text-decoration: none;
+}
+
+.headingtop {
+  display: flex;
+  margin: auto;
+
+  padding: 50px;
+  justify-content: center;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {
+    color: blue;
+  }
+  25% {
+    color: (83, 0, 255, 1);
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: #9010b0;
+  }
+  100% {
+    color: rgb(73, 73, 143);
+  }
+}
+.heading1 {
+  position: relative;
+}
+.main-content1 {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+}
+
+.maincontent1child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background: linear-gradient(97.13deg, #9cbaf7 2.78%, #9010b0 97.22%);
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  margin: auto;
+  min-width: 180px;
+}
+.main-content2 {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+}
+
+.maincontent2child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background: linear-gradient(97.13deg, #9cbaf7 2.78%, #9010b0 97.22%);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 180px;
+}
+.main-content3 {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+  }
+.maincontent3child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background: linear-gradient(97.13deg, #9cbaf7 2.78%, #9010b0 97.22%);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 180px;
+}
+.pictureprofile {
+  height: 180px;
+  width: 180px;
+  border-radius: 60%;
+  
+  border: 2px solid #9010b0;
+  
+}
+.headingsecond{
+    display: flex;
+  margin: auto;
+  padding: 50px;
+  justify-content: center;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {
+    color: blue;
+  }
+  25% {
+    color: (83, 0, 255, 1);
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: #9010b0;
+  }
+  100% {
+    color: rgb(73, 73, 143);
+  }
+}
+
+.heading2{
+    position: relative;
+
+}
+
+.main-content4 {
+  display: flex;
+  gap: 10px;
+     
+}
+
+.maincontent4child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 180px;
+    color: #132550;
+
+
+}
+
+.main-content5 {
+  display: flex;
+  gap: 10px;
+}
+.maincontent5child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 180px;
+    color: #132550;
+
+}
+.main-content6 {
+  display: flex;
+  gap: 10px;
+}
+
+.maincontent6child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 180px;
+    color: #132550;
+
+}
+.headingthree{
+    display: flex;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes example {
+    0% {
+      color: blue;
+    }
+    25% {
+      color: (83, 0, 255, 1);
+    }
+    50% {
+      color: blue;
+    }
+    75% {
+      color: #9010b0;
+    }
+    100% {
+      color: rgb(73, 73, 143);
+    }
+  }
+
+.main-content7 {
+  display: flex;
+  gap: 10px;
+    
+}
+.maincontent7child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 180px;
+    color: #132550;
+
+}
+.msgbtn{
+    padding: 6px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(83, 0, 255, 1) 0%,
+    rgba(231, 172, 204, 1) 100%
+  );
+  border-color: #9010b0;
+  color: white;
+    font-weight: 600;
+  
+}
+
